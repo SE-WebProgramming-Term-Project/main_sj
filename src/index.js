@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Nav from './Nav';
-import Alvolmain from './Alvolmain';
-import Mypage from './Mypage';
-import Orderhistory from './Orderhistory';
+import Nav from './Nav/Nav';
+import Alvolmain from './Alvolmain/Alvolmain';
+import Mypage from './Mypage/Mypage';
+import Orderhistory from './Orderhistory/Orderhistory';
 import reportWebVitals from './reportWebVitals';
-import ChangeInform from './ChangeInform';
+import ChangeInform from './ChangeInform/ChangeInform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav/>
-    <ChangeInform/>
+    <Alvolmain/>
     
   </React.StrictMode>
 );
